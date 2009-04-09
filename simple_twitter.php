@@ -63,12 +63,14 @@ add_action("plugins_loaded", "init_simpleTwit");
 
 
 function simpleTwit_widget() {
+	global $_opt_twitter_id;
 
+	$twitterId = get_option($_opt_twitter_id);
 ?>
 
     <li id="simpleTwit_widget" class="widget widget_recent_entries">
 
-        <h2><a href="http://www.twitter.com/daveschatz" title="Twitter daveschatz" target="_new">Twitter</a></h2>
+        <h2><a href="http://www.twitter.com/<? echo $twitterId; ?>" title="Twitter <? echo $twitterId; ?>" target="_new">Twitter</a></h2>
 
         <?php get_twitter_msg(); ?>
 
