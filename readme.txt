@@ -3,7 +3,7 @@ Contributors: daveschatz, sleepydisco
 Tags: twitter,simple,simpletwitter,rss,badge,feed
 Requires at least: 2.0.5
 Tested up to: 2.7.1
-Stable tag: 1.3
+Stable Tag: 1.3
 
 SimpleTwitter displays the most recent twitter post (tweet) for a given user. The tweet 
 is cached on the webserver for a number of minutes.
