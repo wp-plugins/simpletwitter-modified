@@ -1,5 +1,5 @@
 === SimpleTwitter Modified ===
-Contributors: sleepydisco, daveschatz
+Contributors: daveschatz, sleepydisco
 Tags: twitter,simple,simpletwitter,rss,badge,feed
 Requires at least: 2.0.5
 Tested up to: 2.7.1
@@ -33,7 +33,8 @@ should not experience php errors.
 3. Configure the plugin through the `Options -> SimpleTwitter' menu in WordPress wp-admin:
 3a. Add a twitter user id for the messages you want to show
 3b. Specify a time in minutes, for how long the SimpleTwitter should cache the tweet
-4. Place `<?php get_twitter_msg(); ?>` where you would like the message to appear 
+4a. Place `<?php get_twitter_msg(); ?>` where you would like the message to appear 
+4b. Or under Appearance -> widgets, add the SimpleTwitter widget to your layout.
 
 == Frequently Asked Questions ==
 
