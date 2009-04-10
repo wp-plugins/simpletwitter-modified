@@ -1,29 +1,19 @@
 <?php
 
 /*
-
 Plugin Name: SimpleTwitter Modified
-
 Plugin URI: http://daveschatz.com/simpletwitter/
-
 Description: A plug-in to show the last twitter tweet for a user.
-
-Version: 1.3
-
+Version: 1.3.1
 Author: Dave Schatz
-
 Author URI: http://www.daveschatz.com/
-
 */
 
 /*  Copyright 2007  David Wood  (email : david.c.wood@gmail.com)
-
     CC BY Dave Schatz 2009 (email : daveschatz@gmail.com)
 
     
-
     This software is licensed under the CC-GNU GPL version 2.0 or later.
-
     http://creativecommons.org/licenses/GPL/2.0/
 
 */
